@@ -10,4 +10,5 @@ This archive is used to test all ASR models listed here: https://github.com/egor
 
 Duration: 4.6 hours
 
-...
+- Rows list: https://github.com/egorsmkv/cv10-uk-testset-clean/blob/main/rows.lst
+- The archive: https://github.com/egorsmkv/cv10-uk-testset-clean/releases/download/v1.0/filtered-cv10-test.zip
