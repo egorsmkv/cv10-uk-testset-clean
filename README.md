@@ -6,6 +6,18 @@ This repository contains the archive of CV10 (test set) with checked Ukrainian t
 
 This archive is used to test all ASR models listed here: https://github.com/egorsmkv/speech-recognition-uk
 
+## Hugging Face dataset
+
+- URL: https://huggingface.co/datasets/Yehor/cv10-uk-testset-clean
+
+### Usage
+
+```python
+from datasets import load_dataset
+
+ds = load_dataset('Yehor/cv10-uk-testset-clean', 'test')
+```
+
 ## Download
 
 Duration: 4.6 hours
