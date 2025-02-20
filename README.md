@@ -66,7 +66,7 @@ Duration: 4.6 hours
 
 We recommend to use Hugging Face dataset, but in case you need raw dataset, use:
 
-- Audio data: https://github.com/egorsmkv/cv10-uk-testset-clean/releases/download/v1.0/filtered-cv10-test.zip
+- Audio data: https://github.com/egorsmkv/cv10-uk-testset-clean/releases/download/v1.1/filtered-cv10-test.zip
 
 - Labels list (TAB format) with absolute paths: https://github.com/egorsmkv/cv10-uk-testset-clean/blob/main/labels_absolute.lst
 - Labels list (CSV format) with absolute paths: https://github.com/egorsmkv/cv10-uk-testset-clean/blob/main/labels_absolute.csv
