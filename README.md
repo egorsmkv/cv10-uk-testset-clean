@@ -17,9 +17,21 @@ Example with `datasets`:
 ```python
 from datasets import load_dataset
 
-ds = load_dataset('Yehor/cv10-uk-testset-clean', 'train')
+ds = load_dataset('Yehor/cv10-uk-testset-clean')
 
 print(ds)
+
+for row in ds['train']:
+  audio = row["audio"]
+
+  sampling_rate = audio["sampling_rate"]
+  audio_bytes = audio["array"]
+  filename = audio["path"]
+
+  print(len(audio_bytes), sampling_rate, filename)
+  print(row["duration"], row["transcription"])
+
+  print('---')
 ```
 
 Example with `polars`: https://colab.research.google.com/drive/1upeXw3WbLjK37b1LetpM0HxFXDdOZqSK?usp=sharing
