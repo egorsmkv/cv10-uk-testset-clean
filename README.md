@@ -36,9 +36,33 @@ for row in ds['train']:
 
 Example with `polars`: https://colab.research.google.com/drive/1upeXw3WbLjK37b1LetpM0HxFXDdOZqSK?usp=sharing
 
-## Download
+## Google Colabs
+
+Use the following colabs to see how you can download this dataset in Python:
+
+`datasets`:
+- https://colab.research.google.com/drive/1qqnr5-WkaJi8iqHa_Pmlx7PbbXwXiimD?usp=sharing
+
+`polars`:
+- https://colab.research.google.com/drive/1upeXw3WbLjK37b1LetpM0HxFXDdOZqSK?usp=sharing
+
+## Statistics
+
+## Duration statistics
 
 Duration: 4.6 hours
+
+| Metrics | Value |
+| ------ | ------ |
+| mean | 5.201474 |
+| std | 1.764957 |
+| min | 1.704 |
+| 25% | 3.816 |
+| 50% | 4.896 |
+| 75% | 6.384 |
+| max | 10.536 |
+
+## Download
 
 - Rows list: https://github.com/egorsmkv/cv10-uk-testset-clean/blob/main/rows.lst
 - The archive: https://github.com/egorsmkv/cv10-uk-testset-clean/releases/download/v1.0/filtered-cv10-test.zip
