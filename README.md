@@ -69,7 +69,7 @@ We recommend to use Hugging Face dataset, but in case you need raw dataset, use:
 - Audio data: https://github.com/egorsmkv/cv10-uk-testset-clean/releases/download/v1.0/filtered-cv10-test.zip
 
 - Labels list (TAB format) with absolute paths: https://github.com/egorsmkv/cv10-uk-testset-clean/blob/main/labels_absolute.lst
-- Labels list (CSV format) with absolute paths: https://github.com/egorsmkv/cv10-uk-testset-clean/blob/main/labels_absolute.lst
+- Labels list (CSV format) with absolute paths: https://github.com/egorsmkv/cv10-uk-testset-clean/blob/main/labels_absolute.csv
 - Labels list (CSV format) with relative paths: https://github.com/egorsmkv/cv10-uk-testset-clean/blob/main/labels_relative.csv
 
 [1]: https://huggingface.co/datasets/mozilla-foundation/common_voice_10_0
