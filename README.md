@@ -12,11 +12,17 @@ This archive is used to test all ASR models listed here: https://github.com/egor
 
 ### Usage
 
+Example with `datasets`:
+
 ```python
 from datasets import load_dataset
 
-ds = load_dataset('Yehor/cv10-uk-testset-clean', 'test')
+ds = load_dataset('Yehor/cv10-uk-testset-clean', 'train')
+
+print(ds)
 ```
+
+Example with `polars`: https://colab.research.google.com/drive/1upeXw3WbLjK37b1LetpM0HxFXDdOZqSK?usp=sharing
 
 ## Download
 
